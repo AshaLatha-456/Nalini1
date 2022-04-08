@@ -5,7 +5,7 @@ public class Exception1 {
 		// TODO Auto-generated method stub
 		try {
 	    	  int a[]= {10,20,30,40};
-	    	  int b=30;
+	    	 // int b=30;
 	    	  int c=b/0;
 	    	  String s=null;
 	    	  s.length();
@@ -18,7 +18,7 @@ public class Exception1 {
 	    	  System.out.println("Arithmetic Exception Occur");
 	    	  System.out.println(Ari.getMessage());
 	      }
-	      catch(NullPointerException Np) {
+	     catch(NullPointerException Np) {
 	    	  System.out.println("NullPointerException Occur");
 	    	  System.out.println(Np.getMessage());
 	      }
